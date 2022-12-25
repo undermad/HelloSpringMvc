@@ -10,24 +10,28 @@
 <html>
 <head>
     <title>Student Form</title>
-</head>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/style.css">
 <body>
-<form:form action="processForm" modelAttribute="student">
-    First Name: <form:input path="firstName"></form:input>
-    <br>
-    Last Name: <form:input path="lastName"></form:input>
-    <br>
-    <form:select path="country">
-        <form:options items="${countriesProperties}"/>
-    </form:select>
-    <br>
-    <form:radiobuttons path="favouriteLanguage" items="${favouriteLanguages}"/>
-    <br>
-    <form:checkboxes path="operatingSystems" items="${operatingSystems}"/>
-    <br>
-    <input type="submit" value="Process">
-    <br>
-</form:form>
+<div class="container">
+    <div class="test">
+            <form:form class="form" action="processForm" modelAttribute="student">
+                <form:input class="input" path="firstName"></form:input>
+                <br>
+                <form:input class="input" path="lastName"></form:input></span>
+                <br>
+                <p><form:select path="country">
+                    <form:options items="${countriesProperties}"/>
+                </form:select></p>
+                <br>
+                <span><form:radiobuttons path="favouriteLanguage" items="${favouriteLanguages}"/></span>
+                <br>
+                <span><form:checkboxes path="operatingSystems" items="${operatingSystems}"/></span>
+                <br>
+                <span><input type="submit" value="Process"></span>
+                <br>
+            </form:form>
+    </div>
+</div>
 
 </body>
 </html>
