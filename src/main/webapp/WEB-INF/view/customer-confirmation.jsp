@@ -11,6 +11,11 @@
     <title>Customer confirmation</title>
 </head>
 <body>
-  Customer confirmed: ${customer.firstName} ${customer.lastName}
+Customer confirmed: ${customer.firstName} ${customer.lastName}
+<br>
+Age: ${customer.age}
+<br>
+Post Code: ${customer.postCode}
+CourseCode: ${customer.courseCode}
 </body>
 </html>

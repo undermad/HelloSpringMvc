@@ -10,15 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be4e86e7-0054-4de1-95e5-bf66b2cfb6cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/validation/CourseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/validation/CourseCodeConstrainValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/message.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/student-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/student-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mvc/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mvc/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/student-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/student-confirmation.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,11 +81,17 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.validation" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SpringMVC\tuto\src\main\webapp\WEB-INF" />
       <recent name="D:\SpringMVC\tuto\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spring\SpringMVC\HelloSpringMvc\src\main\resources\properties" />
+      <recent name="D:\Spring\SpringMVC\HelloSpringMvc\src\main\resources" />
+      <recent name="D:\Spring\SpringMVC\HelloSpringMvc\src\main\webapp\resources" />
       <recent name="D:\SpringMVC\tuto\src\main\webapp\WEB-INF\view" />
     </key>
   </component>
@@ -203,7 +212,10 @@
       <workItem from="1671935048338" duration="224000" />
       <workItem from="1671980034640" duration="444000" />
       <workItem from="1671982067943" duration="3081000" />
-      <workItem from="1672005582609" duration="4109000" />
+      <workItem from="1672005582609" duration="5343000" />
+      <workItem from="1672071011102" duration="1635000" />
+      <workItem from="1672099415740" duration="4901000" />
+      <workItem from="1672150048614" duration="3394000" />
     </task>
     <servers />
   </component>

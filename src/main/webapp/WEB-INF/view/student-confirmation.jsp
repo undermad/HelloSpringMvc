@@ -18,6 +18,7 @@ Student Confirmed: ${student.firstName} ${student.lastName}
 Origin Country: ${student.country}
 <br>
 Favourite Language: ${student.favouriteLanguage}
+
 <br>
 <ul>
     <c:forEach var="temp" items="${student.operatingSystems}">
